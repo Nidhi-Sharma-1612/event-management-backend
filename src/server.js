@@ -3,7 +3,7 @@ const connectDB = require("./config/db");
 const app = require("./app");
 const http = require("http");
 const socketIo = require("socket.io");
-const socket = require("./socket"); // ✅ Import socket module
+const socket = require("./socket");
 
 const PORT = process.env.PORT || 5000;
 
